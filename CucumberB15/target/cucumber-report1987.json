@@ -1,0 +1,196 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 71612210522,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MultiScenarioStepDefs.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "validate fb login Scenario1",
+        "description": "",
+        "id": "facebook2-login-validation-with-parameter;validate-fb-login-scenario1",
+        "after": [
+          {
+            "result": {
+              "duration": 159260,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MultiScenarioStepDefs.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 35540796187,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user is on facebook login Page",
+            "match": {
+              "location": "MultiScenarioStepDefs.the_user_is_on_facebook_login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2320862295,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "he enters \"user\" as user name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user",
+                  "offset": 11
+                }
+              ],
+              "location": "MultiScenarioStepDefs.He_enters_user_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5338559305,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "he enters \"pwd\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pwd",
+                  "offset": 11
+                }
+              ],
+              "location": "MultiScenarioStepDefs.He_enters_user_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13102275770,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "check username is present in textbox",
+            "match": {
+              "location": "MultiScenarioStepDefs.check_username_is_present_in_textbox()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 15584531372,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MultiScenarioStepDefs.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "validate fb login Scenario2",
+        "description": "",
+        "id": "facebook2-login-validation-with-parameter;validate-fb-login-scenario2",
+        "after": [
+          {
+            "result": {
+              "duration": 91355,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MultiScenarioStepDefs.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16219053072,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user is on facebook login Page",
+            "match": {
+              "location": "MultiScenarioStepDefs.the_user_is_on_facebook_login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 234113972,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "he enters \"user\" as user name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user",
+                  "offset": 11
+                }
+              ],
+              "location": "MultiScenarioStepDefs.He_enters_user_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5117439750,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "he enters \"pwd\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pwd",
+                  "offset": 11
+                }
+              ],
+              "location": "MultiScenarioStepDefs.He_enters_user_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1968526925,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "check username is present in textbox",
+            "match": {
+              "location": "MultiScenarioStepDefs.check_username_is_present_in_textbox()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook2 login validation with parameter",
+    "description": "As a fb user, I want to enter username and pwd as a parameter",
+    "id": "facebook2-login-validation-with-parameter",
+    "keyword": "Feature",
+    "uri": "MultiScenario.feature"
+  }
+]

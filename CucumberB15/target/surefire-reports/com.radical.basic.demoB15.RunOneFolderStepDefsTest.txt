@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.radical.basic.demoB15.RunOneFolderStepDefsTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 43.846 sec
